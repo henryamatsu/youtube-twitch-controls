@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Twitch Controls",
+    "version": "0.0.1",
+    "description": "This extension standardizes mouse and keyboard shortcuts on Youtube and Twitch.",
+    "icons": {
+        "16": "youtube-twitch-icon16.png",
+        "32": "youtube-twitch-icon32.png",
+        "48": "youtube-twitch-icon48.png",
+        "128": "youtube-twitch-icon128.png"
+      },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/watch*",
+                "https://www.twitch.tv/*"
+            ],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
