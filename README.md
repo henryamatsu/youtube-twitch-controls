@@ -1,2 +1,2 @@
-#Youtube Twitch Controls# is a Chrome extension that makes mouse and keyboard shortcuts behave more consistently across Youtube and Twitch.
+**Youtube Twitch Controls** is a Chrome extension that makes mouse and keyboard shortcuts behave more consistently across Youtube and Twitch.
 On both of these platforms, mouse and keyboard shortcuts can produce unexpected behavior depending on what page element currently has focus. For example, if you are watching a video on Youtube and you click the volume slider to adjust the sound, the left and right arrow keys will now adjust the volume instead of skipping ahead and rewinding the video. This extension ensures that certain inputs always produce the same behavior. The full list of changes can be found here.
